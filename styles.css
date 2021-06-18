@@ -64,13 +64,14 @@ body{
   font:  30px/37px montserratbold, arial, helvetica, sans-seris;
   color: #fff;
   text-align: right;
+  word-spacing: 2px;
 }
 .advantage{
   background: #F9F9F9;
   height: 747px;
 }
 .advantage__title{
-  font:  900 30px/37px montserratbold, arial, helvetica, sans-seris;
+  font:  900 30px/37px montserratextrabold, arial, helvetica, sans-seris;
   color: #585858;
   text-align: center;
   padding: 90px 404px 58px 404px;
