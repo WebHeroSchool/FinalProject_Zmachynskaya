@@ -55,16 +55,16 @@ body{
 }
 .title-cap__title{
   margin: 151px 130px 8px 744px;
-  font:  40px/49px montserratextrabold, arial, helvetica, sans-seris;
+  font:  900 40px/49px montserratextrabold, arial, helvetica, sans-seris;
   color: #330099;
   text-align: right;
+  word-spacing: 2px;
 }
 .title-cap__description{
   margin: 0 130px 10px 959px;
   font:  30px/37px montserratbold, arial, helvetica, sans-seris;
   color: #fff;
   text-align: right;
-  word-spacing: 2px;
 }
 .advantage{
   background: #F9F9F9;
