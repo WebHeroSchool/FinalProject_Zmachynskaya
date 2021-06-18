@@ -1,0 +1,301 @@
+@font-face {
+  font-family: 'robotoblack';
+  src: url('fonts/roboto-black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'robotoblack_italic';
+  src: url('fonts/roboto-blackitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'robotobold';
+  src: url('fonts/roboto-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'robotobold_italic';
+  src: url('fonts/roboto-bolditalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'robotoitalic';
+  src: url('fonts/roboto-italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'robotolight';
+  src: url('fonts/roboto-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'robotolight_italic';
+  src: url('fonts/roboto-lightitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'robotomedium';
+  src: url('fonts/roboto-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'robotomedium_italic';
+  src: url('fonts/roboto-mediumitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'robotoregular';
+  src: url('fonts/roboto-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'robotothin';
+  src: url('fonts/roboto-thin-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'robotothin_italic';
+  src: url('fonts/roboto-thinitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserratblack';
+  src: url('fonts/montserrat-black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserratblack_italic';
+  src: url('fonts/montserrat-blackitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserratbold';
+  src: url('fonts/montserrat-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserratbold_italic';
+  src: url('fonts/montserrat-bolditalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserratextrabold';
+  src: url('fonts/montserrat-extrabold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserratextrabold_italic';
+  src: url('fonts/montserrat-extrabolditalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserratextralight';
+  src: url('fonts/montserrat-extralight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserratextralight_italic';
+  src: url('fonts/montserrat-extralightitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserratitalic';
+  src: url('fonts/montserrat-italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserratlight';
+  src: url('fonts/montserrat-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserratlight_italic';
+  src: url('fonts/montserrat-lightitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserratmedium';
+  src: url('fonts/montserrat-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserratmedium_italic';
+  src: url('fonts/montserrat-mediumitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserratregular';
+  src: url('fonts/montserrat-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserratsemibold';
+  src: url('fonts/montserrat-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserratsemibold_italic';
+  src: url('fonts/montserrat-semibolditalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserratthin';
+  src: url('fonts/montserrat-thin-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserratthin_italic';
+  src: url('fonts/montserrat-thinitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gilroyregular';
+  src: url('fonts/Gilroy-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gilroyextrabold_italic';
+   src: url('fonts/Gilroy-ExtraboldItalic.woff') format('woff');  
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'gilroybold';
+  src: url('fonts/Gilroy-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gilroyblack';
+  src: url('fonts/Gilroy-Black.woff') format('woff');        
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gilroylight';
+  src: url('fonts/Gilroy-Light.woff') format('woff');     
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gilroysemibold';
+  src: url('fonts/Gilroy-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gilroymedium';
+  src: url('fonts/Gilroy-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gilroymedium_italic';
+  src: url('fonts/Gilroy-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'gilroyblack_italic';
+  src: url('fonts/Gilroy-BlackItalic.woff') format('woff');   
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'gilroyultralight';
+  src: url('fonts/Gilroy-UltraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gilroyregular_italic';
+  src: url('fonts/Gilroy-RegularItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'gilroysemibold_italic';
+  src: url('fonts/Gilroy-SemiboldItalic.woff') format('woff');  
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'gilroyheavy_italic';
+  src: url('fonts/Gilroy-HeavyItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'gilroyextrabold';
+  src: url('fonts/Gilroy-Extrabold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gilroybold_italic';
+  src: url('fonts/Gilroy-BoldItalic.woff') format('woff'); 
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'gilroyultralight_italic';
+  src: url('fonts/Gilroy-UltraLightItalic.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'gilroylight_italic';
+  src: url('fonts/Gilroy-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'gilroyheavy';
+  src: url('fonts/Gilroy-Heavy.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gilroythin';
+  src: url('fonts/Gilroy-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gilroythin_italic';
+  src: url('fonts/Gilroy-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+}
+
