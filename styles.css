@@ -8,12 +8,12 @@ body{
 .menu{
   display: flex;
   justify-content: flex-end;
-  margin-top: 47px;
-  margin-bottom: 9px;
+  margin-top: 45px;
+  margin-bottom: 10px;
 }
 .menu__item{
   position: relative;
-  margin-right: 42px;
+  margin-right: 43px;
   font: 20px/25px gilroy_extrabold, arial, helvetica, sans-seris;
   color: #585858;
   text-decoration: none;
@@ -24,12 +24,12 @@ body{
   font: 20px/24px montserratextrabold, arial, helvetica, sans-seris;
   color: #fff;
   background: #330099;
-  padding: 5px 35px 15px 26px;
+  padding: 12px 30px 11px 30px;
   text-decoration: none;
   border-radius: 50px;
   width: 120px;
   height: 30px;
-  bottom: 17px;
+  bottom: 16px;
   transition: 1s;
   display:flex;
   align-items: center;
@@ -54,15 +54,15 @@ body{
   border-top:3px solid #330099;
 }
 .title-cap__title{
-  margin: 151px 130px 8px 744px;
-  font:  900 40px/49px montserratextrabold, arial, helvetica, sans-seris;
+  margin: 151px 127px 7px 535px;
+  font: 900 40px/49px montserratblack, arial, helvetica, sans-seris;
   color: #330099;
   text-align: right;
   word-spacing: 2px;
 }
 .title-cap__description{
-  margin: 0 130px 10px 959px;
-  font:  30px/37px montserratbold, arial, helvetica, sans-seris;
+  margin: 0 140px 10px 940px;
+  font:  700 30px/37px montserratbold, arial, helvetica, sans-seris;
   color: #fff;
   text-align: right;
 }
@@ -74,24 +74,26 @@ body{
   font:  900 30px/37px montserratextrabold, arial, helvetica, sans-seris;
   color: #585858;
   text-align: center;
-  padding: 90px 404px 58px 404px;
-  margin:0;
+  padding: 90px 404px 47px 404px;
+  margin:0 auto;
+  word-spacing: 2px;
 }
 .advantage-all{
   display: flex;
   justify-content: space-between;
-  margin: 0 130px 88px 130px;
+  margin: 0 130px 94px 130px;
 }
 .advantage-first{
   width: 319px;
   height: 319px;
   text-align: center;
+  border: dashed 2px red;
 }
 .advantage-first__image{
   width: 85px;
   height: 70px;
   background: url(img/img_advantage1.svg);
-  margin: auto;
+  margin: 8px 60px 38px 116px;
 }
 .advantage-first__title{
   font: 900 30px/37px montserratblack, arial, helvetica, sans-seris;
@@ -105,16 +107,18 @@ body{
   width: 320px;
   height: 288px;
   text-align: center;
+  border: dashed 2px blue;
 }
 .advantage-second__image{
   width: 85px;
   height: 85px;
   background: url(img/img_advantage2.svg);
-  margin: auto;
+  margin: 0 10px 20px 126px;
 }
 .advantage-second__title{
   font: 900 30px/37px montserratblack, arial, helvetica, sans-seris;
   color: #585858;
+  margin: 31px 25px 0 46px;
 }
 .advantage-second__description{
   font: 500 20px/24px montserratmedium, arial, helvetica, sans-seris;
@@ -124,26 +128,28 @@ body{
   width: 349px;
   height: 319px;
   text-align: center;
+  border: dashed 2px red;
 }
 .advantage-third__image{
   width: 85px;
   height: 85px;
   background: url(img/img_advantage3.svg);
-  margin: auto;
+  margin: 0 10px 20px 136px;
 }
 .advantage-third__title{
   font: 900 30px/37px montserratblack, arial, helvetica, sans-seris;
   color: #585858;
+  margin: 31px 35px 0 46px;
 }
 .advantage-third__description{
   font: 500 20px/24px montserratmedium, arial, helvetica, sans-seris;
   color: #585858;
 }
 .advantage__button{
-  font: 800 20px/24px montserrat, arial, helvetica, sans-seris;
+  font: 800 20px/24px montserratextrabold, arial, helvetica, sans-seris;
   color: #FFDA45;
   background: #330099;
-  padding: 21px 38px 20px 36px;
+  padding: 20px 18px 20px 18px;
   text-decoration: none;
   border-radius: 50px;
   width: 347px;
@@ -154,5 +160,48 @@ body{
   justify-content: center;
   margin:auto;
 }
+
+
+
+
+
+.skills{
+  background: #fff;
+  height: 952px;
 }
+.skills__title {
+  font: 900 30px/37px montserratbold, arial, helvetica, sans-seris;
+  color: #585858;
+  text-align: center;
+  padding: 90px 404px 58px 404px;
+  margin: 0;
+}
+.skills-first {
+  width: 768px;
+  height: 175px;
+  text-align: center;
+  border: dashed 4px red;
+  margin-left: 130px;
+}
+.skills-second {
+  width: 768px;
+  height: 175px;
+  text-align: center;
+  border: dashed 4px green;
+  margin: 85px 130px 90px 557px;
+}
+.skills-third {
+  width: 768px;
+  height: 175px;
+  text-align: center;
+  border: dashed 4px blue;
+  margin-left: 130px;
+}
+
+
+
+
+
+
+
 
