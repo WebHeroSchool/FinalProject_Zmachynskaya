@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'gilroy_regular';
   src: 
-    url('fonts/Gilroy-Regular.ttf') format('ttf'),
+    url('fonts/Gilroy-Regular.ttf'),
     url('fonts/Gilroy-Regular.woff2') format('woff2'),
     url('fonts/Gilroy-Regular.woff') format('woff');
   font-weight: normal;
@@ -10,7 +10,7 @@
 @font-face {
   font-family: 'gilroy_extraboldItalic';
   src: 
-    url('fonts/Gilroy-ExtraboldItalic.ttf') format('ttf'),
+    url('fonts/Gilroy-ExtraboldItalic.ttf'),
     url('fonts/Gilroy-ExtraboldItalic.woff2') format('woff2'),
     url('fonts/Gilroy-ExtraboldItalic.woff') format('woff');
   font-weight: 800;
@@ -19,7 +19,7 @@
 @font-face {
   font-family: 'gilroy_bold';
   src: 
-    url('fonts/Gilroy-Bold.ttf') format('ttf'),
+    url('fonts/Gilroy-Bold.ttf'),
     url('fonts/Gilroy-Bold.woff2') format('woff2'),
     url('fonts/Gilroy-Bold.woff') format('woff');
   font-weight: bold;
@@ -28,7 +28,7 @@
 @font-face {
   font-family: 'gilroy_black';
   src: 
-    url('fonts/Gilroy-Black.ttf') format('ttf'),
+    url('fonts/Gilroy-Black.ttf'),
     url('fonts/Gilroy-Black.woff2') format('woff2'),
     url('fonts/Gilroy-Black.woff') format('woff'); 
   font-weight: 900;
@@ -37,7 +37,7 @@
 @font-face {
   font-family: 'gilroy_light';
   src: 
-    url('fonts/Gilroy-Light.ttf') format('ttf'),
+    url('fonts/Gilroy-Light.ttf'),
     url('fonts/Gilroy-Light.woff2') format('woff2'),
     url('fonts/Gilroy-Light.woff') format('woff');  
   font-weight: 300;
@@ -46,7 +46,7 @@
 @font-face {
   font-family: 'gilroy_simibold';
   src: 
-    url('fonts/Gilroy-Semibold.ttf') format('ttf'),
+    url('fonts/Gilroy-Semibold.ttf'),
     url('fonts/Gilroy-Semibold.woff2') format('woff2'),
      url('fonts/Gilroy-Semibold.woff') format('woff');
   font-weight: 600;
@@ -55,7 +55,7 @@
 @font-face {
   font-family: 'gilroy_medium';
   src: 
-    url('fonts/Gilroy-Medium.ttf') format('ttf'),
+    url('fonts/Gilroy-Medium.ttf'),
     url('fonts/Gilroy-Medium.woff2') format('woff2'),
     url('fonts/Gilroy-Medium.woff') format('woff');
   font-weight: 500;
@@ -64,7 +64,7 @@
 @font-face {
   font-family: 'gilroy_mediumItalic';
   src: 
-    url('fonts/Gilroy-MediumItalic.ttf') format('ttf'),
+    url('fonts/Gilroy-MediumItalic.ttf'),
     url('fonts/Gilroy-MediumItalic.woff2') format('woff2'),
     url('fonts/Gilroy-MediumItalic.woff') format('woff');
   font-weight: 500;
@@ -73,7 +73,7 @@
 @font-face {
   font-family: 'gilroy_blackItalic';
    src: 
-     url('fonts/Gilroy-BlackItalic.ttf') format('ttf'),
+     url('fonts/Gilroy-BlackItalic.ttf') ,
      url('fonts/Gilroy-BlackItalic.woff2') format('woff2'),
      url('fonts/Gilroy-BlackItalic.woff') format('woff');
   font-weight: 900;
@@ -82,7 +82,7 @@
 @font-face {
   font-family: 'gilroy_ultraLight';
   src: 
-    url('fonts/Gilroy-UltraLight.ttf') format('ttf'),
+    url('fonts/Gilroy-UltraLight.ttf'),
     url('fonts/Gilroy-UltraLight.woff2') format('woff2'),
     url('fonts/Gilroy-UltraLight.woff') format('woff');
   font-weight: 200;
@@ -91,7 +91,7 @@
 @font-face {
   font-family: 'gilroy_regularItalic';
   src: 
-    url('fonts/Gilroy-RegularItalic.ttf') format('ttf'),
+    url('fonts/Gilroy-RegularItalic.ttf'),
     url('fonts/Gilroy-RegularItalic.woff2') format('woff2'),
     url('fonts/Gilroy-RegularItalic.woff') format('woff');
   font-weight: normal;
@@ -100,7 +100,7 @@
 @font-face {
   font-family: 'gilroy_semiboldItalic';
   src: 
-    url('fonts/Gilroy-SemiboldItalic.ttf') format('ttf'),
+    url('fonts/Gilroy-SemiboldItalic.ttf'),
     url('fonts/Gilroy-SemiboldItalic.woff2') format('woff2'),
     url('fonts/Gilroy-SemiboldItalic.woff') format('woff');  
   font-weight: 600;
@@ -109,7 +109,7 @@
 @font-face {
   font-family: 'gilroy_heavyItalic';
   src: 
-    url('fonts/Gilroy-HeavyItalic.ttf') format('ttf'),
+    url('fonts/Gilroy-HeavyItalic.ttf'),
     url('fonts/Gilroy-HeavyItalic.woff2') format('woff2'),
      url('fonts/Gilroy-HeavyItalic.woff') format('woff');
   font-weight: 900;
@@ -118,7 +118,7 @@
 @font-face {
   font-family: 'gilroy_extrabold';
   src: 
-    url('fonts/Gilroy-Extrabold.ttf') format('ttf'),
+    url('fonts/Gilroy-Extrabold.ttf'),
     url('fonts/Gilroy-Extrabold.woff2') format('woff2'),
     url('fonts/Gilroy-Extrabold.woff') format('woff');
   font-weight: 800;
@@ -127,7 +127,7 @@
 @font-face {
   font-family: 'gilroy_boldItalic';
   src: 
-    url('fonts/Gilroy-BoldItalic.ttf') format('ttf'),
+    url('fonts/Gilroy-BoldItalic.ttf') ,
     url('fonts/Gilroy-BoldItalic.woff2') format('woff2'),
     url('fonts/Gilroy-BoldItalic.woff') format('woff');
   font-weight: bold;
@@ -136,7 +136,7 @@
 @font-face {
   font-family: 'gilroy_ultraLightItalic';
   src: 
-    url('fonts/Gilroy-UltraLightItalic.ttf') format('ttf'),
+    url('fonts/Gilroy-UltraLightItalic.ttf') ,
     url('fonts/Gilroy-UltraLightItalic.woff2') format('woff2'),
     url('fonts/Gilroy-UltraLightItalic.woff') format('woff');
   font-weight: 200;
@@ -145,7 +145,7 @@
 @font-face {
   font-family: 'gilroy_lightItalic';
   src: 
-    url('fonts/Gilroy-LightItalic.ttf') format('ttf'),
+    url('fonts/Gilroy-LightItalic.ttf') ,
     url('fonts/Gilroy-LightItalic.woff2') format('woff2'),
     url('fonts/Gilroy-LightItalic.woff') format('woff');
   font-weight: 300;
@@ -154,7 +154,7 @@
 @font-face {
   font-family: 'gilroy_heavy';
   src: 
-    url('fonts/Gilroy-Heavy.ttf') format('ttf'),
+    url('fonts/Gilroy-Heavy.ttf') ,
     url('fonts/Gilroy-Heavy.woff2') format('woff2'),
     url('fonts/Gilroy-Heavy.woff') format('woff');
   font-weight: 900;
@@ -163,7 +163,7 @@
 @font-face {
   font-family: 'gilroy_thin';
   src: 
-    url('fonts/Gilroy-Thin.ttf') format('ttf'),
+    url('fonts/Gilroy-Thin.ttf') ,
     url('fonts/Gilroy-Thin.woff2') format('woff2'),
     url('fonts/Gilroy-Thin.woff') format('woff');
   font-weight: 100;
@@ -172,7 +172,7 @@
 @font-face {
   font-family: 'gilroy_thinItalic';
   src: 
-    url('fonts/Gilroy-ThinItalic.ttf') format('ttf'),
+    url('fonts/Gilroy-ThinItalic.ttf') ,
     url('fonts/Gilroy-ThinItalic.woff2') format('woff2'),
     url('fonts/Gilroy-ThinItalic.woff') format('woff');
   font-weight: 100;
@@ -181,7 +181,7 @@
 @font-face {
   font-family: 'montserratblack';
   src: 
-    url('fonts/montserrat-black-webfont.ttf') format('ttf'),
+    url('fonts/Montserrat-Black.ttf') ,
     url('fonts/montserrat-black-webfont.woff2') format('woff2'),
     url('fonts/montserrat-black-webfont.woff') format('woff');
   font-weight: normal;
@@ -190,7 +190,7 @@
 @font-face {
   font-family: 'montserratblack_italic';
   src: 
-    url('fonts/montserrat-blackitalic-webfont.ttf') format('ttf'),
+    url('fonts/Montserrat-BlackItalic.ttf') ,
     url('fonts/montserrat-blackitalic-webfont.woff2') format('woff2'),
     url('fonts/montserrat-blackitalic-webfont.woff') format('woff');
   font-weight: normal;
@@ -199,7 +199,7 @@
 @font-face {
   font-family: 'montserratbold';
   src: 
-    url('fonts/montserrat-bold-webfont.ttf') format('ttf'),
+    url('fonts/Montserrat-Bold.ttf') ,
     url('fonts/montserrat-bold-webfont.woff2') format('woff2'),
     url('fonts/montserrat-bold-webfont.woff') format('woff');
   font-weight: normal;
@@ -208,7 +208,7 @@
 @font-face {
   font-family: 'montserratbold_italic';
   src:
-    url('fonts/montserrat-bolditalic-webfont.ttf') format('ttf'),
+    url('fonts/Montserrat-BoldItalic.ttf') ,
     url('fonts/montserrat-bolditalic-webfont.woff2') format('woff2'),
     url('fonts/montserrat-bolditalic-webfont.woff') format('woff');
   font-weight: normal;
@@ -217,7 +217,7 @@
 @font-face {
   font-family: 'montserratextrabold';
   src: 
-    url('fonts/montserrat-extrabold-webfont.ttf') format('ttf'),
+    url('fonts/Montserrat-ExtraBold.ttf'),
     url('fonts/montserrat-extrabold-webfont.woff2') format('woff2'),
     url('fonts/montserrat-extrabold-webfont.woff') format('woff');
   font-weight: normal;
@@ -226,7 +226,7 @@
 @font-face {
   font-family: 'montserratextrabold_italic';
   src: 
-    url('fonts/montserrat-extrabolditalic-webfont.ttf') format('ttf'),
+    url('fonts/Montserrat-ExtraBoldItalic.ttf'),
     url('fonts/montserrat-extrabolditalic-webfont.woff2') format('woff2'),
     url('fonts/montserrat-extrabolditalic-webfont.woff') format('woff');
   font-weight: normal;
@@ -235,7 +235,7 @@
 @font-face {
   font-family: 'montserratextralight';
   src: 
-    url('fonts/montserrat-extralight-webfont.ttf') format('ttf'),
+    url('fonts/Montserrat-ExtraLight.ttf') ,
     url('fonts/montserrat-extralight-webfont.woff2') format('woff2'),
     url('fonts/montserrat-extralight-webfont.woff') format('woff');
   font-weight: normal;
@@ -244,7 +244,7 @@
 @font-face {
   font-family: 'montserratextralight_italic';
   src: 
-    url('fonts/montserrat-extralightitalic-webfont.ttf') format('ttf'),
+    url('fonts/Montserrat-ExtraLightItalic.ttf'),
     url('fonts/montserrat-extralightitalic-webfont.woff2') format('woff2'),
     url('fonts/montserrat-extralightitalic-webfont.woff') format('woff');
   font-weight: normal;
@@ -253,7 +253,7 @@
 @font-face {
   font-family: 'montserratitalic';
   src: 
-    url('fonts/montserrat-italic-webfont.ttf') format('ttf'),
+    url('fonts/Montserrat-Italic.ttf') ,
     url('fonts/montserrat-italic-webfont.woff2') format('woff2'),
     url('fonts/montserrat-italic-webfont.woff') format('woff');
   font-weight: normal;
@@ -262,7 +262,7 @@
 @font-face {
   font-family: 'montserratlight';
   src: 
-    url('fonts/montserrat-light-webfont.ttf') format('ttf'),
+    url('fonts/Montserrat-Light.ttf') ,
     url('fonts/montserrat-light-webfont.woff2') format('woff2'),
     url('fonts/montserrat-light-webfont.woff') format('woff');
   font-weight: normal;
@@ -271,7 +271,7 @@
 @font-face {
   font-family: 'montserratlight_italic';
   src: 
-    url('fonts/montserrat-lightitalic-webfont.ttf') format('ttf'),
+    url('fonts/Montserrat-LightItalic.ttf'),
     url('fonts/montserrat-lightitalic-webfont.woff2') format('woff2'),
     url('fonts/montserrat-lightitalic-webfont.woff') format('woff');
   font-weight: normal;
@@ -280,7 +280,7 @@
 @font-face {
   font-family: 'montserratmedium';
   src: 
-    url('fonts/montserrat-medium-webfont.ttf') format('ttf'),
+    url('fonts/Montserrat-Medium.ttf') ,
     url('fonts/montserrat-medium-webfont.woff2') format('woff2'),
     url('fonts/montserrat-medium-webfont.woff') format('woff');
   font-weight: normal;
@@ -289,7 +289,7 @@
 @font-face {
   font-family: 'montserratmedium_italic';
   src: 
-    url('fonts/montserrat-mediumitalic-webfont.ttf') format('ttf'),
+    url('fonts/Montserrat-MediumItalic.ttf') ,
     url('fonts/montserrat-mediumitalic-webfont.woff2') format('woff2'),
     url('fonts/montserrat-mediumitalic-webfont.woff') format('woff');
   font-weight: normal;
@@ -298,7 +298,7 @@
 @font-face {
   font-family: 'montserratregular';
   src: 
-    url('fonts/montserrat-regular-webfont.ttf') format('ttf'),
+    url('fonts/Montserrat-Regular.ttf') ,
     url('fonts/montserrat-regular-webfont.woff2') format('woff2'),
     url('fonts/montserrat-regular-webfont.woff') format('woff');
   font-weight: normal;
@@ -307,7 +307,7 @@
 @font-face {
   font-family: 'montserratsemibold';
   src: 
-    url('fonts/montserrat-semibold-webfont.ttf') format('ttf'),
+    url('fonts/Montserrat-SemiBold.ttf') ,
     url('fonts/montserrat-semibold-webfont.woff2') format('woff2'),
     url('fonts/montserrat-semibold-webfont.woff') format('woff');
   font-weight: normal;
@@ -316,7 +316,7 @@
 @font-face {
   font-family: 'montserratsemibold_italic';
   src: 
-    url('fonts/montserrat-semibolditalic-webfont.ttf') format('ttf'),
+    url('fonts/Montserrat-SemiBoldItalic.ttf'),
     url('fonts/montserrat-semibolditalic-webfont.woff2') format('woff2'),
     url('fonts/montserrat-semibolditalic-webfont.woff') format('woff');
   font-weight: normal;
@@ -325,7 +325,7 @@
 @font-face {
   font-family: 'montserratthin';
   src: 
-    url('fonts/montserrat-thin-webfont.ttf') format('ttf'),
+    url('fonts/Montserrat-Thin.ttf') ,
     url('fonts/montserrat-thin-webfont.woff2') format('woff2'),
     url('fonts/montserrat-thin-webfont.woff') format('woff');
   font-weight: normal;
@@ -334,7 +334,7 @@
 @font-face {
   font-family: 'montserratthin_italic';
   src: 
-    url('fonts/montserrat-thinitalic-webfont.ttf') format('ttf'),
+    url('fonts/Montserrat-ThinItalic.ttf') ,
     url('fonts/montserrat-thinitalic-webfont.woff2') format('woff2'),
     url('fonts/montserrat-thinitalic-webfont.woff') format('woff');
   font-weight: normal;
@@ -343,7 +343,7 @@
 @font-face {
   font-family: 'robotoblack';
   src: 
-    url('fonts/roboto-black-webfont.ttf') format('ttf'),
+    url('fonts/Roboto-Black.ttf') ,
     url('fonts/roboto-black-webfont.woff2') format('woff2'),
     url('fonts/roboto-black-webfont.woff') format('woff');
   font-weight: normal;
@@ -352,7 +352,7 @@
 @font-face {
   font-family: 'robotoblack_italic';
   src: 
-    url('fonts/roboto-blackitalic-webfont.ttf') format('ttf'),
+    url('fonts/Roboto-BlackItalic.ttf') ,
     url('fonts/roboto-blackitalic-webfont.woff2') format('woff2'),
     url('fonts/roboto-blackitalic-webfont.woff') format('woff');
   font-weight: normal;
@@ -361,7 +361,7 @@
 @font-face {
   font-family: 'robotobold';
   src: 
-    url('fonts/roboto-bold-webfont.ttf') format('ttf'),
+    url('fonts/Roboto-Bold.ttf') ,
     url('fonts/roboto-bold-webfont.woff2') format('woff2'),
     url('fonts/roboto-bold-webfont.woff') format('woff');
   font-weight: normal;
@@ -370,7 +370,7 @@
 @font-face {
   font-family: 'robotobold_italic';
   src: 
-    url('fonts/roboto-bolditalic-webfont.ttf') format('ttf'),
+    url('fonts/Roboto-BoldItalic.ttf') ,
     url('fonts/roboto-bolditalic-webfont.woff2') format('woff2'),
     url('fonts/roboto-bolditalic-webfont.woff') format('woff');
   font-weight: normal;
@@ -379,7 +379,7 @@
 @font-face {
   font-family: 'robotoitalic';
   src: 
-    url('fonts/roboto-italic-webfont.ttf') format('ttf'),
+    url('fonts/Roboto-Italic.ttf') ,
     url('fonts/roboto-italic-webfont.woff2') format('woff2'),
     url('fonts/roboto-italic-webfont.woff') format('woff');
   font-weight: normal;
@@ -388,7 +388,7 @@
 @font-face {
   font-family: 'robotolight';
   src: 
-    url('fonts/roboto-light-webfont.ttf') format('ttf'),
+    url('fonts/Roboto-Light.ttf') ,
     url('fonts/roboto-light-webfont.woff2') format('woff2'),
     url('fonts/roboto-light-webfont.woff') format('woff');
   font-weight: normal;
@@ -397,7 +397,7 @@
 @font-face {
   font-family: 'robotolight_italic';
   src: 
-    url('fonts/roboto-lightitalic-webfont.ttf') format('ttf'),
+    url('fonts/Roboto-LightItalic.ttf') ,
     url('fonts/roboto-lightitalic-webfont.woff2') format('woff2'),
     url('fonts/roboto-lightitalic-webfont.woff') format('woff');
   font-weight: normal;
@@ -406,7 +406,7 @@
 @font-face {
   font-family: 'robotomedium';
   src: 
-    url('fonts/roboto-medium-webfont.ttf') format('ttf'),
+    url('fonts/Roboto-Medium.ttf') ,
     url('fonts/roboto-medium-webfont.woff2') format('woff2'),
     url('fonts/roboto-medium-webfont.woff') format('woff');
   font-weight: normal;
@@ -415,7 +415,7 @@
 @font-face {
   font-family: 'robotomedium_italic';
   src: 
-    url('fonts/roboto-mediumitalic-webfont.ttf') format('ttf'),
+    url('fonts/Roboto-MediumItalic.ttf') ,
     url('fonts/roboto-mediumitalic-webfont.woff2') format('woff2'),
     url('fonts/roboto-mediumitalic-webfont.woff') format('woff');
   font-weight: normal;
@@ -424,7 +424,7 @@
 @font-face {
   font-family: 'robotoregular';
   src: 
-    url('fonts/roboto-regular-webfont.ttf') format('ttf'),
+    url('fonts/Roboto-Regular.ttf') ,
     url('fonts/roboto-regular-webfont.woff2') format('woff2'),
     url('fonts/roboto-regular-webfont.woff') format('woff');
   font-weight: normal;
@@ -433,7 +433,7 @@
 @font-face {
   font-family: 'robotothin';
   src: 
-    url('fonts/roboto-thin-webfont.ttf') format('ttf'),
+    url('fonts/Roboto-Thin.ttf') ,
     url('fonts/roboto-thin-webfont.woff2') format('woff2'),
     url('fonts/roboto-thin-webfont.woff') format('woff');
   font-weight: normal;
@@ -442,7 +442,7 @@
 @font-face {
   font-family: 'robotothin_italic';
   src: 
-    url('fonts/roboto-thinitalic-webfont.ttf') format('ttf'),
+    url('fonts/Roboto-ThinItalic.ttf') ,
     url('fonts/roboto-thinitalic-webfont.woff2') format('woff2'),
     url('fonts/roboto-thinitalic-webfont.woff') format('woff');
   font-weight: normal;
