@@ -44,12 +44,37 @@ body{
   justify-content: center;
   position: relative;
 }
+.menu__bottom{
+  margin-right: 130px;
+  font: 20px/24px montserratextrabold, arial, helvetica, sans-seris;
+  color: #fff;
+  background: #330099;
+  padding: 12px 30px 11px 30px;
+  text-decoration: none;
+  border-radius: 50px;
+  width: 120px;
+  height: 30px;
+  bottom: 16px;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  display: none;
+}
+
 .menu__item:hover{
   cursor: pointer;
   opacity: 0.7;
   color: #330099;
 }
 .menu__item:hover:last-child{
+  cursor: pointer;
+  opacity: 1;
+  background: #4AB272;
+  color: #fff;
+}
+.menu__bottom:hover{
   cursor: pointer;
   opacity: 1;
   background: #4AB272;
@@ -464,7 +489,6 @@ body{
 display:block;
 }
 
-
 /* скрываем чекбокс */
 #menu__toggle {
   opacity: 0;
@@ -528,6 +552,11 @@ display:block;
   text-decoration: none;
   transition-duration: 0.25s;
 }
+
+.menu__item:last-child {
+display:none;
+}
+
 .menu__item:hover {
   opacity:1;
   color:#5193F4;
@@ -549,5 +578,24 @@ display:block;
   padding: 156px 16px 23px 10px;
 }
 
+.menu__bottom{
+  margin-right: 130px;
+  font: 20px/24px montserratextrabold, arial, helvetica, sans-seris;
+  color: #fff;
+  background: #330099;
+  padding: 12px 30px 11px 30px;
+  text-decoration: none;
+  border-radius: 50px;
+  width: 120px;
+  height: 30px;
+  bottom: 16px;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 650px;
+ 
+}
 
 }
