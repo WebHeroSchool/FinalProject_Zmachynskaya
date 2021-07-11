@@ -17,7 +17,7 @@ body{
   display: flex;
   justify-content: flex-end;
   margin-top: 25px;
-  margin-bottom: 37px;
+  margin-bottom: 9px;
 }
 .menu__item{
   position: relative;
@@ -27,7 +27,7 @@ body{
   text-decoration: none;
   transition: .5s;
 }
-.menu__item-bottom{
+.menu__item:last-child{
   margin-right: 130px;
   font: 20px/24px montserratextrabold, arial, helvetica, sans-seris;
   color: #fff;
@@ -43,14 +43,13 @@ body{
   align-items: center;
   justify-content: center;
   position: relative;
-  top: 8px;
 }
 .menu__item:hover{
   cursor: pointer;
   opacity: 0.7;
   color: #330099;
 }
-.menu__item-bottom:hover{
+.menu__item:hover:last-child{
   cursor: pointer;
   opacity: 1;
   background: #4AB272;
@@ -552,22 +551,3 @@ display:block;
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
