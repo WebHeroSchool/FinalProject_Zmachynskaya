@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Финальный проект</title>
   <link rel="stylesheet" href="fonts.css">
   <link rel="stylesheet" href="styles.css">
@@ -9,14 +10,21 @@
 <body>
  <div class ="wrapper"> 
   <header class="header">
-    <nav class ="menu">
+    <div class="hamburger-menu">
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+      <span></span>
+      </label> 
+      <nav class ="menu">
       <a class="menu__item" href="#">Мои навыки</a>
       <a class="menu__item" href="#">Оставить заявку</a>
       <a class="menu__item" href="#">Позвонить</a>
     </nav>
+     <a class="menu__bottom" href="#">Позвонить</a>
+    </div>
     <div class= "title-cap">
       <h1 class="title-cap__title">Разработка сайтов, игр и&nbsp;приложений</h1>
-      <p class=" title-cap__description">Помогаю воплащать мечты в реальность</p>
+      <p class=" title-cap__description">Помогаю воплощать мечты в реальность</p>
     </div>
   </header>
   <section class="advantage">
@@ -25,7 +33,7 @@
       <div class="advantage-first">
         <div class="advantage-first__image"></div>
         <h1 class="advantage-first__title">Индивидуальный подход</h1>
-        <p class="advantage-first__description">Каждый клиент для меня особенный. Я тщательно изучаю что ему необходимо, прежде, чем приступить к&nbsp;работе.</p>
+        <p class="advantage-first__description">Каждый клиент <br>для меня особенный. <br>Я тщательно изучаю <br>что ему необходимо, прежде, <br>чем приступить к работе.</p>
       </div>
       <div class="advantage-second">
         <div class="advantage-second__image"></div>
@@ -35,24 +43,26 @@
       <div class="advantage-third">
         <div class="advantage-third__image"></div>
         <h1 class="advantage-third__title">Отличный результат!</h1>
-        <p class="advantage-third__description">Я внимательно работаю над каждым проектом. Я очень люблю свою работу, поэтому вас обрадует результат проделанной работы.</p>
+        <p class="advantage-third__description">Я внимательно работаю <br>над каждым проектом. <br>Я очень люблю свою работу, <br>поэтому вас обрадует результат <br>проделанной работы.</p>
       </div>
     </div>
     <button class="advantage__button">Получить консультацию</button>
   </section>
   <section class="skills">
     <h1 class="skills__title">Что я могу </h1>
-    <div class="skills-first">
-      <h1 class="skills-first__title">Я умею писать валидный и&nbsp;семмантически верный код для&nbsp;вашего сайта или приложения</h1>
-      <p class="skills-first__description">Ваш сайт и приложение будут верно&nbsp;работать, благодаря моей верстке</p>
-    </div>
-    <div class="skills-second">
-      <h1 class="skills-second__title">Я умею создавать игры и&nbsp;анимации с помощью JavaScript</h1>
-      <p class="skills-second__description">Я свободно владею языком JavaScript и&nbsp;могу “оживить” ваш сайт и приложение</p>
-    </div>
-    <div class="skills-third">
-      <h1 class="skills-third__title">Я умею создавать приложения с&nbsp;помощью React</h1>
-      <p class="skills-third__description">Благодаря моим навыкам, ваш сайт и&nbsp;приложение будут максимально удобными в использовании</p>
+    <div class="skills-wrapper">
+      <div class="skills-first">
+        <h1 class="skills-first__title">Я умею писать валидный и&nbsp;семмантически верный код для&nbsp;вашего сайта или приложения</h1>
+        <p class="skills-first__description">Ваш сайт и приложение будут верно&nbsp;работать, благодаря моей верстке</p>
+      </div>
+      <div class="skills-second">
+        <h1 class="skills-second__title">Я умею создавать игры и&nbsp;анимации с помощью JavaScript</h1>
+        <p class="skills-second__description">Я свободно владею языком JavaScript и&nbsp;могу “оживить” ваш сайт и приложение</p>
+      </div>
+      <div class="skills-third">
+        <h1 class="skills-third__title">Я умею создавать приложения с&nbsp;помощью React</h1>
+        <p class="skills-third__description">Благодаря моим навыкам, ваш сайт и&nbsp;приложение будут максимально удобными в использовании</p>
+      </div>
     </div>
   </section>
   <section class="form-contact">
@@ -76,3 +86,4 @@
     <p class="footer__sign">2020 © WebHero School</p>
   </footer>
 </body>
+</html>
