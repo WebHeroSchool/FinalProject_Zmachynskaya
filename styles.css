@@ -56,7 +56,6 @@ body{
   transition: 0.5s;
   align-items: center;
   justify-content: center;
-  margin-top: -25px;
   margin-bottom: 25px;
   margin-left: 65%;
   display: none;
@@ -476,10 +475,6 @@ body{
 }
 
 
-
-
-
-
 @media(max-width: 1024px){
   .menu__bottom{
     display:flex;
@@ -496,14 +491,15 @@ body{
 /* стилизуем кнопку */
   .menu__btn {
     display: flex; /* используем flex для центрирования содержимого */
-    top: 39px;
+    top: 25px;
     right: 80px;
     width: 25px;
     height: 3px;
     cursor: pointer;
-    z-index: 1;
+    z-index: 2;
     margin-left: 91%;
     margin-top: 20px;
+    position: fixed;
   }
 /* добавляем "гамбургер" */
   .menu__btn > span,
@@ -515,6 +511,7 @@ body{
     height: 3px;
     background-color: #330099;
     transition-duration: 0.25s;
+ 
   }
   .menu__btn > span::before {
     content: '';
@@ -530,9 +527,9 @@ body{
     position: fixed;
     visibility: hidden;
     top: 0;
-    left: -100%;
+    right: -100%; /* поменять на right*/
     width: 100%;
-    height: 100%;
+    height: 20%;
     margin: 0;
     padding: 80px 0;
     list-style: none;
@@ -558,7 +555,7 @@ body{
   }
   .menu__item:hover {
     opacity:1;
-    color:#5193F4;
+    color:#330099;
   }
   #menu__toggle:checked ~ .menu__btn > span {
     transform: rotate(45deg);
@@ -573,8 +570,9 @@ body{
   }
   #menu__toggle:checked ~ .menu {
     visibility: visible;
-    left: 0;
-    padding: 156px 16px 23px 10px;
+    right: 0; /*right*/
+    padding: 0 16px 0 16px;
+    z-index: 1;
   }
   .title-cap {
     height: 381px;
